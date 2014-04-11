@@ -1,0 +1,16 @@
+##  Plugin Information  ##
+name: CoatingObsidian
+version: 1.1
+main: com.happytarn.coatingObsidian.Main
+description:
+##  Original Author     ##
+author: happytarn
+commands:
+    coatingobsidian:
+      usage: /co help - to see the help
+      aliases: [co]
+      description: To see the CoatingObsidian help.
+permissions:
+    hapitanCmd.coatingobsidian.admin:
+        default: op
+        description: Can CoatingObsidian Reload.
